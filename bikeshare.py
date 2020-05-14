@@ -234,6 +234,8 @@ def main():
     while True:
         city, month, day = get_filters()
 
+	#Addition of an additional filter
+
         while True:
             print('City: ', city.title(), '\nMonth: ', month.title(), '\nDay: ', day.title()) 
             decision = input('Kindly confirm the city, month and day filters for the analysis of data. If you want to change any of the filters \nEnter "change" else enter "continue" to continue with the selected filters.\n')
