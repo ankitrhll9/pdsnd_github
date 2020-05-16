@@ -6,7 +6,8 @@ CITY_DATA = { 'chicago': 'chicago.csv',
               'new york city': 'new_york_city.csv',
               'washington': 'washington.csv' }
 
-#making the first change in this file to pass in udacity review              
+#making the first change as comment in this file to pass in udacity review for git project
+#making the second change as comment in this file to pass in udacity review for git project             
 
 def get_filters():
     """
